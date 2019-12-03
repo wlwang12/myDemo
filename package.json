@@ -1,5 +1,5 @@
 {
-  "name": "njly-demo",
+  "name": "mydemo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "babel-plugin-import": "^1.13.0",
     "bizcharts": "^3.5.6",
     "customize-cra": "^0.9.1",
+    "html2canvas": "^1.0.0-rc.5",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "moment": "^2.24.0",

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import {Tabs} from 'antd';
-import BarChart from './BarChart';
+import TabOne from './BarChart/TabOne';
 
 const TabPane = Tabs.TabPane;
 
@@ -29,7 +29,7 @@ class Index extends Component {
     getTabs = id => {
         switch(id){
             case 111:
-            return <BarChart />
+            return <TabOne />
             // case 112:
             // return <XueShengGuanLi filterValue = { this.state.filterValue }/>
             // case 113:

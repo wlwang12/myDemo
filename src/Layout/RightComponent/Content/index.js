@@ -6,7 +6,7 @@ const { Content } = layout;
 
 
 // 个人画像
-const GeRenHuaXiang = React.lazy(() => import ('./GeRenHuaXiang'));
+const BizChart = React.lazy(() => import ('./BizChart'));
 
 // 行为轨迹
 const XingWeiGuiJi = React.lazy(() => import('./XingWeiGuiJi/GeRenGuiJi'));
@@ -42,8 +42,8 @@ export default class Index extends React.Component {
             <Content>
                 <React.Suspense fallback={null}>
                     <Switch>
-                        {/* 个人画像 */}
-                        <Route exact path="/main/gerenhuaxiang" component={GeRenHuaXiang} />
+                        {/* bizchart图表 */}
+                        <Route exact path="/main/bizchart" component={BizChart} />
 
                         {/* 行为轨迹 */}
                         <Route exact path="/main/xingweiguiji/gerenguiji" component={XingWeiGuiJi} />

@@ -28,7 +28,7 @@ export default class Login extends React.Component {
             <div className={styles.loginWrapper}>
                 <div className={styles.loginBox}>
                     <div className={styles.loginCenter}>
-                        <img src={require('./img/logo.png')} alt="logo"/>
+                        {/* <img src={require('./img/logo.png')} alt="logo"/> */}
                         <h3>大数据分析平台</h3>
                         <div className={styles.loginForm}>
                             <ul>

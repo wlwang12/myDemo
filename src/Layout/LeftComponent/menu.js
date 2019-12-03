@@ -3,7 +3,7 @@ export default [
         id: 10,
         name: 'bizchart图表',
         iconUrl:"icon-yonghu-",
-        url:"/main/gerenhuaxiang"
+        url:"/main/bizchart"
     },
     // {
     //     id: 20,
